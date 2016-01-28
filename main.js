@@ -1,4 +1,4 @@
-Parse.Cloud.job("breathingReminders", function(request,response){
+Parse.Cloud.job("pushNotificationJob", function(request,response){
  
   //When to schedule the push notifications for. So if the job is run on Sunday, it will add couple more days 
   //to schedule it to be run on a Tuesday. 
